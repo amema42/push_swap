@@ -6,7 +6,7 @@
 /*   By: amema <amema@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 10:09:49 by amema             #+#    #+#             */
-/*   Updated: 2023/10/04 14:29:45 by amema            ###   ########.fr       */
+/*   Updated: 2023/10/05 14:28:33 by amema            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	ft_putstr(char *str)
 {
 	int	i;
 
-	if (str == '\0')
+	if (str == NULL)
 	{
 		write(1, "(null)", 6);
 		return (ft_strln("(null)"));

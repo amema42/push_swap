@@ -6,7 +6,7 @@
 /*   By: amema <amema@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 14:38:03 by amema             #+#    #+#             */
-/*   Updated: 2023/10/04 14:49:46 by amema            ###   ########.fr       */
+/*   Updated: 2023/10/05 14:37:41 by amema            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,13 +62,16 @@ int	double_n(char **matrix, int i)
 
 int	min_max(char **matrix, int i)
 {
-	long	value;
+	long int	value;
 
 	while (matrix[i])
 	{
 		value = ft_atoi(matrix[i]);
 		if (value > 2147483647 || value < -2147483648)
-			return (-1);
+			{
+				write(1, "a", 1);
+				return (-1);
+			}
 		i++;
 	}
 	return (1);
