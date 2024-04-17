@@ -21,7 +21,7 @@ int	main(int ac, char **av)
 
 	stack_a = NULL;
 	stack_b = NULL;
-	if (ac == 1)
+	if (ac == 1 || ac == 2) // also, Subject rule:  ./push_swap 42 -> return(0)
 		return (0);
 	if (ft_strlen(av[1]) == 0)
 	{
