@@ -20,7 +20,7 @@ The Push Swap project is a sorting algorithm challenge designed for the 42 schoo
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [authors](#authors)
+- [Authors](#authors)
 - [Files and Directories](#files-and-directories)
 - [Compilation and Execution](#compilation-and-execution)
 - [Program Logic](#program-logic)
