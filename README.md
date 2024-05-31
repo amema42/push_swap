@@ -7,6 +7,9 @@ Easy? We’ll see... Objectives: Writing a sorting algorithm is always a very im
 Sorting algorithms and their complexity are part of the classic questions discussed during job interviews. It’s probably a good time to look at these concepts since you’ll have to face them at some point.
 The learning objectives of this project are rigor, use of C, and use of basic algorithms. Especially focusing on their complexity.
 Sorting values is simple. To sort them the fastest way possible is less simple. Especially because from one integers configuration to another, the most efficient sorting solution... "
+## Authors
+
+Group project by [Ani Mema](https://github.com/amema42) and [Jacopo Cardinaux](https://github.com/raviolotto).
 
 # Push Swap
 
@@ -14,8 +17,10 @@ Sorting values is simple. To sort them the fastest way possible is less simple. 
 
 The Push Swap project is a sorting algorithm challenge designed for the 42 school. The goal is to sort a list of integers using a limited set of operations and two stacks. This project involves creating an efficient sorting algorithm, often used in competitive programming to optimize sorting operations.
 
+
 ## Table of Contents
 - [Introduction](#introduction)
+- [authors](#authors)
 - [Files and Directories](#files-and-directories)
 - [Compilation and Execution](#compilation-and-execution)
 - [Program Logic](#program-logic)
