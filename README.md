@@ -1,24 +1,12 @@
--- From project's Subject:
-Introduction:
-The Push swap project is a very simple and a highly straightforward algorithm project: data must be sorted.
+### Introduction
+From project's Subject:
+"Introduction: The Push swap project is a very simple and a highly straightforward algorithm project: data must be sorted.
 You have at your disposal a set of integer values, 2 stacks, and a set of instructions to manipulate both stacks.
 Your goal? Write a program in C called push_swap which calculates and displays on the standard output the smallest program, made of Push swap language instructions, that sorts the integers received as arguments.
-Easy? We’ll see...
-
-Objectives:
-Writing a sorting algorithm is always a very important step in a developer’s journey. It is often the first encounter with the concept of complexity.
+Easy? We’ll see... Objectives: Writing a sorting algorithm is always a very important step in a developer’s journey. It is often the first encounter with the concept of complexity.
 Sorting algorithms and their complexity are part of the classic questions discussed during job interviews. It’s probably a good time to look at these concepts since you’ll have to face them at some point.
 The learning objectives of this project are rigor, use of C, and use of basic algorithms. Especially focusing on their complexity.
-Sorting values is simple. To sort them the fastest way possible is less simple. Especially because from one integers configuration to another, the most efficient sorting solution can differ.
--- ...
-
-The project you've provided consists of several source files and directories, including the main algorithm, utility functions, a bonus directory, and some dependencies like `libft` and `ft_printf`. Below is a detailed `README.md` file that documents the project and explains how it works.
-
----
-
-Sure, here is the merged and detailed `README.md` for the `push_swap` project:
-
----
+Sorting values is simple. To sort them the fastest way possible is less simple. Especially because from one integers configuration to another, the most efficient sorting solution... "
 
 # Push Swap
 
@@ -27,7 +15,7 @@ Sure, here is the merged and detailed `README.md` for the `push_swap` project:
 The Push Swap project is a sorting algorithm challenge designed for the 42 school. The goal is to sort a list of integers using a limited set of operations and two stacks. This project involves creating an efficient sorting algorithm, often used in competitive programming to optimize sorting operations.
 
 ## Table of Contents
-
+- [Introduction](#introduction)
 - [Files and Directories](#files-and-directories)
 - [Compilation and Execution](#compilation-and-execution)
 - [Program Logic](#program-logic)
